@@ -1,17 +1,18 @@
-// Boolean
-// Null
-// Undefined
-// Number
-// String
+// + Adição
+// - Subtração
+// * Multiplicação
+// / Divisão
+// % Módulo
+// ++ Incremento
+// -- Decremento
 
-var a = True;
-var b = Null;
-var c;
-var d = 1;
-var e = "1";
+var a = 17;
+var b = 15;
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
-console.log(e);
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+console.log(++a);
+console.log(--b);
