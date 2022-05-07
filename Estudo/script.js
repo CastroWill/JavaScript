@@ -16,10 +16,14 @@ console.log(2 < 3);
 console.log(2 >= 2);
 console.log(2 <= 2);8
 
+//Exemplo de uso com Prompt e Alert
 
+var idade = parseInt(prompt("Digite um número."));
 
-var numero = parseInt(prompt("Digite um número."));
+var dobro = idade + idade;
 
-var dobro = numero + numero;
+alert("O dobro de " + idade + " é " + dobro);
 
-alert("O dobro de " + numero + " é " + dobro);
+//Exemplo de uso do Operador ternário
+
+idade >= 18 ? console.log("Pode beber") : console.log("Não pode beber");
