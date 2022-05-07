@@ -14,4 +14,12 @@ console.log(2 !== "2");
 console.log(2 > 3);
 console.log(2 < 3);
 console.log(2 >= 2);
-console.log(2 <= 2);
+console.log(2 <= 2);8
+
+
+
+var numero = parseInt(prompt("Digite um número."));
+
+var dobro = numero + numero;
+
+alert("O dobro de " + numero + " é " + dobro);
